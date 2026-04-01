@@ -8,26 +8,46 @@ La idea es que sirva tanto como referencia personal como para cualquiera que est
 
 ## 📂 Contenido
 
+### 📁 fundamentos/
 | Archivo | Descripción |
 |---|---|
-| `sqlserver-cheatsheet.md` | Fundamentos: bases de datos, tablas, tipos de datos |
+| `01-conceptos-basicos.md` | Qué es SQL Server, ediciones, tipos de datos, objetos |
+| `02-bases-de-datos.md` | CREATE, USE, ALTER, DROP DATABASE |
+| `03-tablas.md` | CREATE TABLE, ALTER TABLE, TRUNCATE, DROP |
 
-> Se van agregando secciones a medida que avanzo.
+### 📁 consultas/
+| Archivo | Descripción |
+|---|---|
+| `01-crud.md` | INSERT, SELECT, UPDATE, DELETE |
+| `02-filtros-y-ordenamiento.md` | WHERE, LIKE, BETWEEN, IN, ORDER BY |
+| `03-agrupamiento.md` | GROUP BY, HAVING, funciones de agregado |
+| `04-joins.md` | INNER, LEFT, RIGHT, FULL, CROSS JOIN |
+| `05-subconsultas.md` | Subconsultas, EXISTS, CTE |
+
+### 📁 objetos/
+> En construcción
+
+### 📁 administracion/
+> En construcción
+
+### 📁 scripts/
+> En construcción
 
 ---
 
 ## 🗺️ Roadmap
 
 - [x] Fundamentos (bases de datos, tablas, tipos de datos)
-- [ ] CRUD (INSERT, SELECT, UPDATE, DELETE)
-- [ ] Filtros, ordenamiento y agrupamiento
-- [ ] JOINs
+- [x] CRUD (INSERT, SELECT, UPDATE, DELETE)
+- [x] Filtros, ordenamiento y agrupamiento
+- [x] JOINs
+- [x] Subconsultas y CTEs
 - [ ] Constraints y claves foráneas
 - [ ] Vistas y procedimientos almacenados
+- [ ] Funciones
 - [ ] Administración: usuarios y permisos
 - [ ] Backups y restauración
 - [ ] Modelos de recuperación (Simple, Full, Bulk-logged)
-
 ---
 
 ## 👤 Autor
